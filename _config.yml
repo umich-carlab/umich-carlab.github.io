@@ -1,1 +1,8 @@
+title: CarLab
+description: Framework for Vehicular Data Collection and Processing
+google_analytics: UA-108281654-1
+show_downloads: false
 theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions
