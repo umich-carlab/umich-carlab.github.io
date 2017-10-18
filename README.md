@@ -4,8 +4,6 @@
 
 # News
 
-# Downloads
-
 # Academic Publications
 
 # Technical Documents and Source Code
