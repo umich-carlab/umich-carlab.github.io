@@ -1,6 +1,9 @@
 
 ![Carlab logo](logo.png)
 
+
+[Mobile App](app-usage.md) | [Web-based Visualization](dashboard.md) | [Data Collection Task Submission](dct-submission.md) | [Mobile App Plugin Development](plugin-development.md)
+
 # News
 [10/20/17] Our [CarLab paper](http://web.eecs.umich.edu/~mpese/papers/ACM_CarSys_CarLab.pdf) was presented at ACM CarSys 2017. <br />
 [10/15/17] CarLab is released for testing for lab members at University of Michigan. <br />
@@ -8,7 +11,7 @@
 
 
 # Description
-CarLab is an open-source vehicular data collection and processing platform. Besides optimized data collection from vehicular and mobile sensors, We are aiming at offering end consumers, researchers and app developers an open, secure and privacy-preserving platform for automotive apps.
+CarLab is an open-source vehicular data collection and processing platform. Besides optimized data collection from vehicular and mobile sensors, we are aiming at offering end consumers, researchers and app developers an open, secure and privacy-preserving platform for automotive apps.
 
 #### Prior Work on Data Collection
 Vehicular data collection has been an active area in academic and commercial domains. In academic domains, data collection testbeds such as [SafetyPilot](https://www.nhtsa.gov/sites/nhtsa.dot.gov/files/812171-safetypilotmodeldeploydeltestcondrtmrep.pdf), [DOME](https://dl.acm.org/citation.cfm?id=1651431) and [CarTel](http://cartel.csail.mit.edu/doku.php) design a data collection platform and deploy them in volunteer vehicles. They collect data pertaining to their research question and analyze the results. However, due to the different requirements of each project, they are forced to develop a custom data collection platform without leveraging the work done by others. CarLab aims to serve this need by providing a flexible data collection platform that can be utilized for diverse needs.
