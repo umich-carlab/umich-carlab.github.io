@@ -1,5 +1,6 @@
-
-![Carlab logo](logo.png)
+<p align='center'>
+    <img src='logo.png' />
+</p>
 
 
 [Mobile App](app-usage.md) | [Web-based Visualization](dashboard.md) | [Data Collection Task Submission](dct-submission.md) | [Mobile App Plugin Development](plugin-development.md)
