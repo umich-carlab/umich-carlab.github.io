@@ -1,7 +1,4 @@
-<p align='center'>
-    <img src='logo.png' />
-</p>
-
+![Logo](logo.png)
 
 [Mobile App](app-usage.md) | [Web-based Visualization](dashboard.md) | [Data Collection Task Submission](dct-submission.md) | [Mobile App Plugin Development](plugin-development.md)
 
@@ -23,10 +20,9 @@ In commercial domains, data collection has been used in insurance telematics (e.
 #### Distinguishing Features of CarLab
 In contrast to the existing work described above, CarLab seeks to address the diverse needs of data collection platforms and act as a unifying force in this field.
 
-![RelatedTable](related-table.png)
-
 We provide four key features through CarLab.
-1. **Real-time network communication**. CarLab presents a API to data collection applications for uploading and downloading content from the Internet. The most challenging part about providing this functionality is balancing (1) the user's budget for local storage and network usage, (2) the app requirements of network communication size and deadline, and (3) the network availability of WiFi and LTE networks. CarLab handles this balancing in the background and provides a simple API for applications residing on the CarLab platform.
+
+1. **Automatic Data Collection Deployment**. CarLab provides a simple interface where researchers can submit data collection tasks (DCT). CarLab automatically deploys the DCT to drivers who meet the requirements and collects data without requiring any interaction from the driver. Once the drive is completed, the CarLab app uploads the data over WiFi and presents the anonymized version to the researcher.
 
 2. **Diverse hardware support**. In order to serve as a unifying platform, CarLab supports many data sources, as shown in the figure in the top of this page. CarLab is designed to accept various data sources flexibly through the Hardware Abstraction Layer (HAL). Each application running on CarLab interfaces with the HAL and requests the data source. CarLab performs necessary setup and initiates a connection with the data source. It then feeds the data back to the requesting application through a callback interface.
 
@@ -34,11 +30,9 @@ We provide four key features through CarLab.
 
 4. **Secure and Private Data Collection**. Finally, CarLab is careful not to leak any private or sensitive information from the users to the applications running on CarLab. In order to achieve this, we provide a permission model for applications running on CarLab. The user must review the permissions and decide whether to install the application. Furthermore, as recent works have shown (e.g. [PowerSpy](https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-michalevsky.pdf)), under-privileged apps can learn sensitive information about the user such as their location. We plan to study this research question through CarLab and prevent such privacy leakage.
 
-# Source Code
-We plan to release the source code for the public on our official Github repository at the MCity Tech Review on November 14th, 2017.
 
 # Academic Publications
 Mert D. Pesé, Arun Ganesan and Kang G. Shin, “CarLab: Framework for Vehicular Data Collection and Processing,” Proceedings of the Second ACM International Workshop on Smart, Autonomous, and Connected Vehicular Systems and Services (CarSys’17), Oct. 2017.
 
 # Acknowledgements and Disclaimers
-CarLab is supported in part by the NSF under Grant CNS-1505785 and an Intel Labs contract, as well as a University Michigan MCity grant. We want to thank to our main developers Mert D. Pesé and Arun Ganesan as well as Victor Boyse-Peacor’s help in CarLab development.
+CarLab is supported in part by the NSF under Grant CNS-1505785 and an Intel Labs contract, as well as a University Michigan MCity grant. 
