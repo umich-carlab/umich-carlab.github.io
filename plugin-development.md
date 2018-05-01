@@ -15,7 +15,7 @@ The plugin has to extend the `App` class. The `App` class has certain methods wh
 ![IApp](plugin-iapp.png)
 
 ## Todo
-* An automated app submission process. Once the developer 
+* An automated app submission process. Once the developer compiles the APK, currently we need to manually load that into the CarLab "app store". We need a more automated process through which developers can upload APKs and create the web-based description of their plugin for deployment in the CarLab app store.
 
 * Dependency description and uploading. When Data Collection Tasks (DCTs) or other plugins use dependencies, they need a way to browse the behavior of the DEP and decide whether or not to rely on it. Currently we don't have a way of listing the full details of the DEP. We may decide to make all dependencies open source so that other plugin developers can make an informed decision before using it in their plugin.
 
